@@ -1,0 +1,1 @@
+An EEG (Electroencephalography) dataset contains several primary data streams and metadata parameters that define how the electrical activity of the brain was recorded, structured, and annotated.
