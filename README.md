@@ -1,4 +1,4 @@
-# 🧠 NeuroPulse
+
 
 ## Explainable EEG-Based Seizure Prediction & Brain-State Visualization
 
