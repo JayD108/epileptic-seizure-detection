@@ -1,4 +1,13 @@
-
+> ## Repository status
+> This repository currently contains **only `neuropulse.zip`**, a front-end prototype of the NeuroPulse dashboard (React, Vite, Three.js). The prototype runs on **mock data** (`src/lib/mock/` inside the zip); its `src/lib/api.ts` can call a FastAPI backend (`/api/eeg/...`), but that backend is **not included**.
+> The Python/PyTorch pipeline, datasets and results described below are the project's design and plan. A working EEG pipeline and dashboard live in the [Neuro_Pulse-Apala-](https://github.com/JayD108/Neuro_Pulse-Apala-) repository.
+>
+> **Run the prototype** (Node.js required; `npm install` and `npm run build` were verified):
+> ```bash
+> unzip neuropulse.zip -d neuropulse && cd neuropulse
+> npm install
+> npm run dev      # http://localhost:3000
+> ```
 
 ## Explainable EEG-Based Seizure Prediction & Brain-State Visualization
 
@@ -1459,4 +1468,10 @@ All predictions are experimental machine-learning outputs and should not be inte
 
 ---
 
+# Author
 
+Mrittunjay Dubey, GitHub [@JayD108](https://github.com/JayD108)
+
+# License
+
+MIT. See [`LICENSE`](LICENSE).
